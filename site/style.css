@@ -1,0 +1,52 @@
+body{
+    background-color: grey;
+    font-size: 130%;
+}
+.main {
+    color: red;
+    font-size: 20px;
+   width: 200px; 
+   opacity: .6;
+   font-style: italic;
+   background-color: azure;
+  
+}
+h1 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+}
+#point{
+    color: green;
+    font-size: 25px;
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header > ul.li{
+    list-style: none;
+}
+a:link, a:visited {
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid red;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 2px;
+    text-decoration: capitalize;
+}
+a:hover, a:active {
+    background-color: blue;
+    color: purple;
+}
+header li:nth-child(2){
+    font-size: 30px;
+}
+section div:nth-child(odd) {
+    background-color: gray;
+}
+section div:nth-child(3):hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
